@@ -1,13 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+
+head{
+  background: none;
+}
+
 body {
   margin: 0px;
+  
 }
 nav {
-  margin-top: 40px;
-  padding: 24px;
+  padding: 24px 10px;
   text-align: center;
   font-family: Raleway;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  margin-top: -20px;
 }
 #nav-1 {
   background: #3fa46a;
@@ -35,26 +41,45 @@ nav {
   box-sizing: border-box;
 }
 
+.head1
+{
+  display: -webkit-inline-box;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
 
+.head1 img
+{
+  height: 80%;
+  margin-top: 10px;
+  padding-left: 150px;
+  padding-right: 0px;
+}
 body {
 
   font: 100%/1 "Helvetica Neue", Arial, sans-serif;
 }
 
 h4,h6{
- margin-top: 10px;
  margin-bottom: 10px;
  color: grey;
+   padding: 0px 0;
+  margin: 0 50px;
 }
 
 h4
 {
+  margin-top: 30px;
   font-size: 150%;
 }
 
 h6{
+ margin-top: 10px;
 font-size: 120%;
 }
+
 
 .login {
   position: absolute;
@@ -67,7 +92,7 @@ font-size: 120%;
   background-color: whitesmoke;
   border-radius: 5px;
   overflow: hidden;
-  margin-top: -70px !important;
+  margin-top: -50px !important;
 }
 .login:hover > .login-header, .login.focused > .login-header {
   width: 2rem;
